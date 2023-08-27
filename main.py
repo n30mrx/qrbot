@@ -1,6 +1,6 @@
 import telebot
 import qrcode
-bot = telebot.TeleBot("6634279570:AAGZxSbQ5HQq-BhRnxBWG4ZKf1lt_ERtccg")
+bot = telebot.TeleBot("TOKEN")
 
 def crqr(message):
     if len(message.text)>0:
